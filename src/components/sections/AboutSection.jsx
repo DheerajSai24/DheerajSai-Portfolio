@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import './AboutSection.css';
-import profileImage from '../../assets/WhatsApp Image 2025-08-18 at 11.15.34 PM.jpeg';
+import aboutMeImg from '../../assets/Aboutmeimg.jpeg';
 
 const AboutSection = () => {
   const stats = [
@@ -42,8 +42,8 @@ const AboutSection = () => {
                 }}
               ></motion.div>
               <motion.img 
-                src={profileImage}
-                alt="Dheeraj Sai"
+                src={aboutMeImg}
+                alt="About Me"
                 className="about__image"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}

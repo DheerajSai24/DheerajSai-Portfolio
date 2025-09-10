@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import './HeroSection.css';
-import profileImage from '../../assets/WhatsApp Image 2025-08-18 at 11.15.34 PM.jpeg';
+import profileImage from '../../assets/Dheeraj.jpeg';
 
 const HeroSection = () => {
   return (
