@@ -66,9 +66,7 @@ const AboutSection = () => {
             <h2>About Me</h2>
             <div className="about__line"></div>
             <p>
-              I'm an aspiring Data Scientist and MERN Stack Developer from India. Currently pursuing my B.Tech 
-              in Computer Science Engineering at Vaagdevi College of Engineering. My journey includes working 
-              on AI-powered projects, full-stack web applications, and real-time systems that solve practical problems.
+              I am an aspiring Data Scientist with a strong passion for leveraging data to solve real-world problems. Alongside my focus on data-driven insights and AI-powered solutions, I am also a MERN Stack Developer who enjoys building full-stack web applications and integrating intelligent systems into them. Currently, I am pursuing my B.Tech in Computer Science Engineering at Vaagdevi College of Engineering, where I combine my love for programming, analytics, and AI to create impactful projects that bridge the gap between data and technology.
             </p>
 
             {/* Stats */}

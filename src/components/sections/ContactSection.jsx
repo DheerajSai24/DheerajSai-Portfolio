@@ -7,25 +7,25 @@ import './ContactSection.css';
 const ContactSection = () => {
   const contactInfo = [
     {
-      icon: '�',
+      icon: faPhone,
       label: 'Phone',
       value: '+91 6304981392',
       link: 'tel:+916304981392'
     },
     {
-      icon: '�📧',
+      icon: faEnvelope,
       label: 'Email',
       value: 'dheerajsai628@gmail.com',
       link: 'mailto:dheerajsai628@gmail.com'
     },
     {
-      icon: '🔗',
+      icon: faGithub,
       label: 'GitHub',
       value: 'DheerajSai24',
       link: 'https://github.com/DheerajSai24'
     },
     {
-      icon: '💼',
+      icon: faLinkedinIn,
       label: 'LinkedIn',
       value: 'Dheeraj Sai Goutham',
       link: 'https://www.linkedin.com/in/dheeraj-sai-goutham'
