@@ -96,8 +96,6 @@ const ContactSection = () => {
                 whileHover={{ 
                   y: -8,
                   scale: 1.02,
-                  backgroundColor: "var(--color-primary)",
-                  color: "var(--color-bg)",
                   transition: { type: "spring", stiffness: 300, damping: 10 }
                 }}
               >
@@ -113,7 +111,7 @@ const ContactSection = () => {
                     damping: 10
                   }}
                 >
-                  <FontAwesomeIcon icon={info.icon} size="2x" />
+                  <FontAwesomeIcon icon={info.icon} size="lg" />
                 </motion.div>
                 <motion.div 
                   className="contact-card__content"
